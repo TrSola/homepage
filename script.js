@@ -58,20 +58,6 @@ $('.dropShih6')
     $('.dropdownShih6').hide(300);
   });
 
-// Swal.fire({
-//   title: '好的開始是經的爸爸的一半',
-//   width: 780,
-//   padding: '3em',
-//   color: '#716add',
-//   background: '',
-//   backdrop: `
-//     rgba(0,0,123,0.4)
-//  url(https://sweetalert2.github.io/#examplesimages/trees.png)',
-//     left top
-//     no-repeat
-//   `,
-// });
-
 const panels = document.querySelectorAll('.panel');
 function removeActiveClasses() {
   panels.forEach((panel) => {
@@ -122,3 +108,17 @@ function blurring() {
 }
 
 // https://stackoverflow.com/questions/10756313/javascript-jquery-map-a-range-of-numbers-to-another-range-of-numbers
+
+Swal.fire({
+  title: '好的開始是經的爸爸的一半',
+  width: 780,
+  padding: '3em',
+  color: '#716add',
+  background: '',
+  backdrop: `
+    rgba(0,0,123,0.4)
+ url(https://sweetalert2.github.io/#examplesimages/trees.png)',
+    left top
+    no-repeat
+  `,
+});
